@@ -53,10 +53,11 @@ variable "key_name" {
 }
 
 variable "my_ip" {
-  description = "Your current public IP address used to lock down bastion SSH access (CIDR form e.g. 1.2.3.4/32)"
+  description = "Your public IP for bastion SSH access"
   type        = string
-  default     = ""
+  default     = "105.112.10.67"  # WARNING: opens SSH to the world
 }
+
 
 variable "db_password" {
   description = "Postgres password for the DB server (sensitive)"

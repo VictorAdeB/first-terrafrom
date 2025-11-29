@@ -1,0 +1,25 @@
+# # Terraform state
+# *.tfstate
+# *.tfstate.backup
+
+# # Terraform plan
+# *.tfplan
+
+# # CLI cache
+# .terraform/
+# .terraform/providers/
+
+# # Crash logs
+# crash.log*
+
+# # Sensitive variable files
+# *.tfvars
+
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log*
+*.tfvars
+
